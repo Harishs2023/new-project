@@ -1,4 +1,5 @@
 
+Nothing personal
 
 git add ===>working dir to staging area
 git commit ====> staging area to local repository
@@ -22,4 +23,9 @@ git config --global user.name "Harishs2022"
 git config --list
 git --version
 
+git diff <1st commit id> <2nd commit id>      =====>shows difference b/w 2 commits
+git stash ====>to save something for temporary purpose. It saves in some other folder
+git stash list ===>shows all stash changes
+git restore <filename> ===> restored from previous commit
 
+git branch <branch name> ===> Creates branch
